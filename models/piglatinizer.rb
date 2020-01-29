@@ -14,7 +14,7 @@ class PigLatinizer
     # find first vowel
     first_vowel_index = word.index(/[aeiou]/)
     last_index = word.length - 1
-
+    result = nil
     if first_vowel_index == 0
       # add "w" to end of string
     else
@@ -23,5 +23,6 @@ class PigLatinizer
       suffix = word[first_vowel_index..last_index]
     end
     # add 'ay'
+
   end
 end
