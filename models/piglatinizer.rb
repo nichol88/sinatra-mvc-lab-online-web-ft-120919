@@ -25,6 +25,6 @@ class PigLatinizer
       result = "#{suffix}#{prefix}"
     end
     # add 'ay'
-
+    "#{result}ay"
   end
 end
