@@ -14,7 +14,7 @@ class PigLatinizer
     result = nil
     if first_vowel_index == 0 || word.length == 1
       # add "w" to end of string
-      resuult = "#{word}w"
+      result = "#{word}w"
     else
       # get prefix and put it at the end
       prefix = word[0..(first_vowel_index - 1)]
