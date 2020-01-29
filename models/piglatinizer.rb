@@ -12,6 +12,6 @@ class PigLatinizer
 
   def pl_word(word)
     # find first vowel
-    first_vowel_index = word.index(/aeiou/)
+    first_vowel_index = word.index(/[aeiou]/)
   end
 end
