@@ -16,11 +16,12 @@ class PigLatinizer
     last_index = word.length - 1
 
     if first_vowel_index == 0
-      # add "way" to end of string
+      # add "w" to end of string
     else
       # get prefix and put it at the end
       prefix = word[0..first_vowel_index]
       suffix = word[first_vowel_index..last_index]
+
     end
   end
 end
