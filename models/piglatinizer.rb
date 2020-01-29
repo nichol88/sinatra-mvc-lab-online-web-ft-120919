@@ -10,7 +10,7 @@ class PigLatinizer
 
   end
 
-  def pl_word
+  def pl_word(word)
 
   end
 end
