@@ -4,7 +4,7 @@ class PigLatinizer
 
   def piglatinize(string)
     @text = string.downcase
-    string.split(' ').map { |word| pl_word(word) }.join(' ')
+    @text.split(' ').map { |word| pl_word(word) }.join(' ')
   end
 
   def pl_word(word)
