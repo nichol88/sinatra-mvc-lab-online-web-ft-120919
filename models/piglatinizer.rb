@@ -22,6 +22,7 @@ class PigLatinizer
       # get prefix and put it at the end
       prefix = word[0..first_vowel_index]
       suffix = word[first_vowel_index..last_index]
+      result = "#{suffix}#{prefix}"
     end
     # add 'ay'
 
