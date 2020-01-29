@@ -16,7 +16,9 @@ class PigLatinizer
     last_index = word.length - 1
 
     if first_vowel_index == 0
-      #add "way" to end of string
-
+      # add "way" to end of string
+    else
+      # add substring to end of word
+    end
   end
 end
