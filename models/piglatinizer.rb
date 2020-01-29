@@ -12,7 +12,7 @@ class PigLatinizer
     first_vowel_index = word.index(/[aeiou]/)
     last_index = word.length - 1
     result = nil
-    if first_vowel_index == 0
+    if first_vowel_index == 0 || word.length == 1
       # add "w" to end of string
       resuult = "#{word}w"
     else
