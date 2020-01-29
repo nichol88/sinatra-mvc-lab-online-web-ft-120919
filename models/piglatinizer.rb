@@ -3,7 +3,7 @@ class PigLatinizer
   attr_reader :text
 
   def piglatinize(string)
-    @text = string.split(' ').map { |word| pl_word(word) }.join(' ')
+    string.split(' ').map { |word| pl_word(word) }.join(' ')
   end
 
   def pl_word(word)
