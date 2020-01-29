@@ -7,7 +7,7 @@ class PigLatinizer
   end
 
   def piglatinize(string)
-    string.split(' ')
+    string.split(' ').map { |word| pl_word(word) }
   end
 
   def pl_word(word)
