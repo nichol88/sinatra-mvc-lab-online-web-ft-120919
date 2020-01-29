@@ -20,6 +20,7 @@ class PigLatinizer
     else
       # get prefix and put it at the end
       prefix = word[0..(first_vowel_index - 1)]
+      
     end
   end
 end
