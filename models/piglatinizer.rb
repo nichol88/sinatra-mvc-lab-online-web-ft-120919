@@ -21,7 +21,7 @@ class PigLatinizer
       resuult = "#{word}w"
     else
       # get prefix and put it at the end
-      prefix = word[0..first_vowel_index]
+      prefix = word[0..(first_vowel_index - 1)]
       suffix = word[first_vowel_index..last_index]
       result = "#{suffix}#{prefix}"
     end
