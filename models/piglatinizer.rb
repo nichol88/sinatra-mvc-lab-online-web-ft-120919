@@ -18,7 +18,7 @@ class PigLatinizer
     if first_vowel_index == 0
       # add "way" to end of string
     else
-      # add substring to end of word
+      # get prefix and put it at the end
     end
   end
 end
