@@ -7,6 +7,6 @@ class PigLatinizer
   end
 
   def piglatinize(string)
-
+    # find first vowel in string
   end
 end
