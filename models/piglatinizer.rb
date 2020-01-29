@@ -14,5 +14,9 @@ class PigLatinizer
     # find first vowel
     first_vowel_index = word.index(/[aeiou]/)
     last_index = word.length - 1
+
+    if first_vowel_index == 0
+      #add "way" to end of string
+
   end
 end
