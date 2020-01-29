@@ -3,7 +3,7 @@ class PigLatinizer
   attr_reader :text
 
   def piglatinize(string)
-    @text = string.doncase
+    @text = string.downcase
     string.split(' ').map { |word| pl_word(word) }.join(' ')
   end
 
