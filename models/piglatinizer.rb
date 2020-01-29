@@ -2,8 +2,8 @@ class PigLatinizer
 
   attr_reader :text
 
-  def initialize(input)
-    @text = piglatinize(input)
+  def initialize
+
   end
 
 
