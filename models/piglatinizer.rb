@@ -8,7 +8,7 @@ class PigLatinizer
 
   def pl_word(word)
     # find first vowel
-    first_vowel_index = word.index(/[aeiou]/)
+    first_vowel_index = word.downcase.index(/[aeiou]/)
     last_index = word.length - 1
     result = nil
     if first_vowel_index == 0 || word.length == 1
