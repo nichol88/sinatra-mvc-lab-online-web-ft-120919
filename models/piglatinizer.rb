@@ -7,7 +7,7 @@ class PigLatinizer
   end
 
   def piglatinize(string)
-
+    string.split(' ')
   end
 
   def pl_word(word)
